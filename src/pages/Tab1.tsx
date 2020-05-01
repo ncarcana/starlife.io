@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IonFabButton, IonInput, IonButton, IonButtons, IonThumbnail, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonFabButton, IonInput, IonButton, IonThumbnail, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import './Tab1.css';
 import { useFirebase } from '../hooks/useFirebase';
 import { useHoroscope } from '../hooks/useHoroscope';

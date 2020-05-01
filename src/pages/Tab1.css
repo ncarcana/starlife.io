@@ -1,9 +1,7 @@
-ion-header{
-	length: 100px;
-}
+
 ion-thumbnail {
 	width: 100%;
-	length: 300%;
+
 }
 ion-fab-button {
 --background: #f5b642;

@@ -1,4 +1,4 @@
-import * as firebase from 'firebase';
+
 export const environment = {
   firebaseConfig: {
     apiKey: "AIzaSyB4erk5FXTK5TR8PuMX6MvYLauUsV57Bl0",

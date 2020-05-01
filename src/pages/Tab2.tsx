@@ -1,8 +1,8 @@
 import React from 'react';
-import { camera, trash, close } from 'ionicons/icons';
+import { camera } from 'ionicons/icons';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, 
-         IonFab, IonFabButton, IonIcon, IonGrid, IonRow, 
-         IonCol, IonImg, IonActionSheet } from '@ionic/react';
+          IonFabButton, IonIcon, IonGrid, IonRow, 
+         IonCol, IonImg } from '@ionic/react';
 import './Tab2.css';
 import { usePhotoGallery } from '../hooks/usePhotoGallery';
 
