@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DAA90F22457AC92004C1D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA90F12457AC92004C1D32 /* AppDelegate.swift */; };
+		3DAA90F42457AC92004C1D32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA90F32457AC92004C1D32 /* SceneDelegate.swift */; };
+		3DAA90F62457AC92004C1D32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA90F52457AC92004C1D32 /* ContentView.swift */; };
+		3DAA90F82457AC95004C1D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAA90F72457AC95004C1D32 /* Assets.xcassets */; };
+		3DAA90FB2457AC95004C1D32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAA90FA2457AC95004C1D32 /* Preview Assets.xcassets */; };
+		3DAA90FE2457AC95004C1D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAA90FC2457AC95004C1D32 /* LaunchScreen.storyboard */; };
+		3DAA91092457AC96004C1D32 /* starLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA91082457AC96004C1D32 /* starLifeTests.swift */; };
+		3DAA91142457AC96004C1D32 /* starLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA91132457AC96004C1D32 /* starLifeUITests.swift */; };
+		3DAA91222457BC5D004C1D32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DAA91212457BC5D004C1D32 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DAA91052457AC96004C1D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAA90E62457AC92004C1D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAA90ED2457AC92004C1D32;
+			remoteInfo = starLife;
+		};
+		3DAA91102457AC96004C1D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAA90E62457AC92004C1D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAA90ED2457AC92004C1D32;
+			remoteInfo = starLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DAA90EE2457AC92004C1D32 /* starLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAA90F12457AC92004C1D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DAA90F32457AC92004C1D32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DAA90F52457AC92004C1D32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DAA90F72457AC95004C1D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DAA90FA2457AC95004C1D32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DAA90FD2457AC95004C1D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DAA90FF2457AC95004C1D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAA91042457AC96004C1D32 /* starLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAA91082457AC96004C1D32 /* starLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starLifeTests.swift; sourceTree = "<group>"; };
+		3DAA910A2457AC96004C1D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAA910F2457AC96004C1D32 /* starLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAA91132457AC96004C1D32 /* starLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starLifeUITests.swift; sourceTree = "<group>"; };
+		3DAA91152457AC96004C1D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAA91212457BC5D004C1D32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DAA90EB2457AC92004C1D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAA91012457AC96004C1D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAA910C2457AC96004C1D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DAA90E52457AC92004C1D32 = {
+			isa = PBXGroup;
+			children = (
+				3DAA90F02457AC92004C1D32 /* starLife */,
+				3DAA91072457AC96004C1D32 /* starLifeTests */,
+				3DAA91122457AC96004C1D32 /* starLifeUITests */,
+				3DAA90EF2457AC92004C1D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DAA90EF2457AC92004C1D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA90EE2457AC92004C1D32 /* starLife.app */,
+				3DAA91042457AC96004C1D32 /* starLifeTests.xctest */,
+				3DAA910F2457AC96004C1D32 /* starLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAA90F02457AC92004C1D32 /* starLife */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA90F12457AC92004C1D32 /* AppDelegate.swift */,
+				3DAA90F32457AC92004C1D32 /* SceneDelegate.swift */,
+				3DAA90F52457AC92004C1D32 /* ContentView.swift */,
+				3DAA90F72457AC95004C1D32 /* Assets.xcassets */,
+				3DAA90FC2457AC95004C1D32 /* LaunchScreen.storyboard */,
+				3DAA90FF2457AC95004C1D32 /* Info.plist */,
+				3DAA91212457BC5D004C1D32 /* GoogleService-Info.plist */,
+				3DAA90F92457AC95004C1D32 /* Preview Content */,
+			);
+			path = starLife;
+			sourceTree = "<group>";
+		};
+		3DAA90F92457AC95004C1D32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA90FA2457AC95004C1D32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DAA91072457AC96004C1D32 /* starLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA91082457AC96004C1D32 /* starLifeTests.swift */,
+				3DAA910A2457AC96004C1D32 /* Info.plist */,
+			);
+			path = starLifeTests;
+			sourceTree = "<group>";
+		};
+		3DAA91122457AC96004C1D32 /* starLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAA91132457AC96004C1D32 /* starLifeUITests.swift */,
+				3DAA91152457AC96004C1D32 /* Info.plist */,
+			);
+			path = starLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DAA90ED2457AC92004C1D32 /* starLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAA91182457AC96004C1D32 /* Build configuration list for PBXNativeTarget "starLife" */;
+			buildPhases = (
+				3DAA90EA2457AC92004C1D32 /* Sources */,
+				3DAA90EB2457AC92004C1D32 /* Frameworks */,
+				3DAA90EC2457AC92004C1D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = starLife;
+			productName = starLife;
+			productReference = 3DAA90EE2457AC92004C1D32 /* starLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DAA91032457AC96004C1D32 /* starLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAA911B2457AC96004C1D32 /* Build configuration list for PBXNativeTarget "starLifeTests" */;
+			buildPhases = (
+				3DAA91002457AC96004C1D32 /* Sources */,
+				3DAA91012457AC96004C1D32 /* Frameworks */,
+				3DAA91022457AC96004C1D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAA91062457AC96004C1D32 /* PBXTargetDependency */,
+			);
+			name = starLifeTests;
+			productName = starLifeTests;
+			productReference = 3DAA91042457AC96004C1D32 /* starLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DAA910E2457AC96004C1D32 /* starLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAA911E2457AC96004C1D32 /* Build configuration list for PBXNativeTarget "starLifeUITests" */;
+			buildPhases = (
+				3DAA910B2457AC96004C1D32 /* Sources */,
+				3DAA910C2457AC96004C1D32 /* Frameworks */,
+				3DAA910D2457AC96004C1D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAA91112457AC96004C1D32 /* PBXTargetDependency */,
+			);
+			name = starLifeUITests;
+			productName = starLifeUITests;
+			productReference = 3DAA910F2457AC96004C1D32 /* starLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DAA90E62457AC92004C1D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "nani$;))))";
+				TargetAttributes = {
+					3DAA90ED2457AC92004C1D32 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3DAA91032457AC96004C1D32 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3DAA90ED2457AC92004C1D32;
+					};
+					3DAA910E2457AC96004C1D32 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3DAA90ED2457AC92004C1D32;
+					};
+				};
+			};
+			buildConfigurationList = 3DAA90E92457AC92004C1D32 /* Build configuration list for PBXProject "starLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DAA90E52457AC92004C1D32;
+			productRefGroup = 3DAA90EF2457AC92004C1D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DAA90ED2457AC92004C1D32 /* starLife */,
+				3DAA91032457AC96004C1D32 /* starLifeTests */,
+				3DAA910E2457AC96004C1D32 /* starLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DAA90EC2457AC92004C1D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAA90FE2457AC95004C1D32 /* LaunchScreen.storyboard in Resources */,
+				3DAA91222457BC5D004C1D32 /* GoogleService-Info.plist in Resources */,
+				3DAA90FB2457AC95004C1D32 /* Preview Assets.xcassets in Resources */,
+				3DAA90F82457AC95004C1D32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAA91022457AC96004C1D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAA910D2457AC96004C1D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DAA90EA2457AC92004C1D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAA90F22457AC92004C1D32 /* AppDelegate.swift in Sources */,
+				3DAA90F42457AC92004C1D32 /* SceneDelegate.swift in Sources */,
+				3DAA90F62457AC92004C1D32 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAA91002457AC96004C1D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAA91092457AC96004C1D32 /* starLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAA910B2457AC96004C1D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAA91142457AC96004C1D32 /* starLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DAA91062457AC96004C1D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAA90ED2457AC92004C1D32 /* starLife */;
+			targetProxy = 3DAA91052457AC96004C1D32 /* PBXContainerItemProxy */;
+		};
+		3DAA91112457AC96004C1D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAA90ED2457AC92004C1D32 /* starLife */;
+			targetProxy = 3DAA91102457AC96004C1D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DAA90FC2457AC95004C1D32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAA90FD2457AC95004C1D32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DAA91162457AC96004C1D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DAA91172457AC96004C1D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DAA91192457AC96004C1D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"starLife/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = starLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadiyacarc.starLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DAA911A2457AC96004C1D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"starLife/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = starLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadiyacarc.starLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DAA911C2457AC96004C1D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = starLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadiyacarc.starLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starLife.app/starLife";
+			};
+			name = Debug;
+		};
+		3DAA911D2457AC96004C1D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = starLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadiyacarc.starLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starLife.app/starLife";
+			};
+			name = Release;
+		};
+		3DAA911F2457AC96004C1D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = starLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadiyacarc.starLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = starLife;
+			};
+			name = Debug;
+		};
+		3DAA91202457AC96004C1D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = starLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nadiyacarc.starLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = starLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DAA90E92457AC92004C1D32 /* Build configuration list for PBXProject "starLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAA91162457AC96004C1D32 /* Debug */,
+				3DAA91172457AC96004C1D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAA91182457AC96004C1D32 /* Build configuration list for PBXNativeTarget "starLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAA91192457AC96004C1D32 /* Debug */,
+				3DAA911A2457AC96004C1D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAA911B2457AC96004C1D32 /* Build configuration list for PBXNativeTarget "starLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAA911C2457AC96004C1D32 /* Debug */,
+				3DAA911D2457AC96004C1D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAA911E2457AC96004C1D32 /* Build configuration list for PBXNativeTarget "starLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAA911F2457AC96004C1D32 /* Debug */,
+				3DAA91202457AC96004C1D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DAA90E62457AC92004C1D32 /* Project object */;
+}

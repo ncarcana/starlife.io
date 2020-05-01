@@ -2,8 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Ionic App</title>
-
+    <title>Welcome to StarLife!</title>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="468998111536-2sj3jdud91pl0c11qumc7o4fjaeh1lq2.apps.googleusercontent.com">
+    <div class="g-signin2" data-onsuccess="onSignIn">
+	function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+</div>
     <base href="/" />
 
     <meta name="color-scheme" content="light dark" />
@@ -26,6 +36,10 @@
 
   <body>
     <div id="root"></div>
+    <div class="horo">
+	<img class= "icon">
+	<p class="sign"></p>
+	</div>
   </body>
 
 </html>
